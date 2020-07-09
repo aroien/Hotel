@@ -200,11 +200,16 @@ p {
 }
 .box a:hover {
   color: #f7c08a;
-  background: #333
+  background: #333;
+  transform:translate(0, -10px) ;
 }
 .box a {
   color: lightsalmon;
   text-shadow: #f7c08a;
+  position: relative;
+  display: block;
+  transition: 0.6s;
+  transform: translate(-50% -50%);
 }
 
 /* About Info */
