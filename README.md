@@ -1,3 +1,3 @@
 # Hotel
 
-|# this is my first made hotel website
+<!-- this is my first made hotel website -->
