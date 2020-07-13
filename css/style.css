@@ -108,7 +108,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo h1 {
   float: left;
   padding-top: 20px;
 }
@@ -162,8 +162,9 @@ p {
 }
 
 /* Home Info */
+
 #home-info {
-  height: 400px;
+  height: 550px;
 }
 
 #home-info .info-img {
@@ -213,23 +214,21 @@ p {
 }
 
 /* About Info */
-#about-info .info-right {
-  float: right;
-  width: 50%;
-  min-height: 100%;
-}
 
-#about-info .info-right img {
-  display: block;
-  margin: auto;
-  width: 70%;
-  border-radius: 50%;
-}
 
 #about-info .info-left {
   float: left;
-  width: 50%;
+  width: 60%;
   min-height: 100%;
+  padding-right: 20px;
+  
+}
+
+#about-info .info-right img {
+  display: relative;
+  margin: auto;
+  width: 40%;
+  border-radius: 50%;
 }
 
 /* Testimonials */
